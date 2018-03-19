@@ -14,4 +14,15 @@ Registrovani korisnik radi to isto, takodjer registrovani korisnik ocjenjuje zel
 Vlasnik lokala dodaje svoj objekat u bazu podataka zajedno sa lokacijom objekta i brojem mjesta u njemu.
 Admin moze brisati lokale i ocjene.
 
+# Funkcionalnosti :
+
+-Mogucnost pregleda svih objekata zeljenog tipa zajedno sa njihovom prosjecnom ocjenom
+-Mogucnost pregleda ocjena pojedinacnog objekta zajedno sa komentarima i slikama
+-Mogucnost pregleda lokacije pojedinacnog objekta
+-Mogucnost pravljenja rezervacije mjesta u zeljenom objektu
+-Mogucnost ocjenjivanja pojedinacnih objekata uz komentar
+-Mogucnost da se opcionalno prilozi slika pri ocjenjivanju objekta
+-Mogucnost da vlasnik doda svoj objekat zajedno sa njegovom lokacijom i brojem slobodnih mjesta
+-Mogucnost da vlasnik objekta mijenja broj slobodnih mjesta
+-Mogucnost da admin brise objekte i ocjene
 
