@@ -5,7 +5,8 @@ Clanovi tima :
 
 # Opis Teme :
 
-Ova aplikacija treba omoguciti korisniku pregled ugostiteljskih objekata onog tipa koji ga zanima, takodjer omoguciti vlasnicima da svoje objekte objave pomocu ove aplikacije. Korisnik moze vidjeti ocjene drugih korisnika za zeljene objekte i takodjer rezervisati mjesta u tim objektima.
+Ova aplikacija treba omoguciti korisniku pregled ugostiteljskih objekata onog tipa koji ga zanima, takodjer 
+omoguciti vlasnicima da svoje objekte objave pomocu ove aplikacije. Korisnik moze vidjeti ocjene drugih korisnika za zeljene objekte i takodjer rezervisati mjesta u tim objektima.
 
 # Procesi :
 
@@ -16,13 +17,13 @@ Admin moze brisati lokale i ocjene.
 
 # Funkcionalnosti :
 
-Mogucnost pregleda svih objekata zeljenog tipa zajedno sa njihovom prosjecnom ocjenom
-Mogucnost pregleda ocjena pojedinacnog objekta zajedno sa komentarima i slikama
-Mogucnost pregleda lokacije pojedinacnog objekta
-Mogucnost pravljenja rezervacije mjesta u zeljenom objektu
-Mogucnost ocjenjivanja pojedinacnih objekata uz komentar
-Mogucnost da se opcionalno prilozi slika pri ocjenjivanju objekta
-Mogucnost da vlasnik doda svoj objekat zajedno sa njegovom lokacijom i brojem slobodnih mjesta
-Mogucnost da vlasnik objekta mijenja broj slobodnih mjesta
-Mogucnost da admin brise objekte i ocjene
+Mogucnost pregleda svih objekata zeljenog tipa zajedno sa njihovom prosjecnom ocjenom  
+Mogucnost pregleda ocjena pojedinacnog objekta zajedno sa komentarima i slikama  
+Mogucnost pregleda lokacije pojedinacnog objekta  
+Mogucnost pravljenja rezervacije mjesta u zeljenom objektu  
+Mogucnost ocjenjivanja pojedinacnih objekata uz komentar  
+Mogucnost da se opcionalno prilozi slika pri ocjenjivanju objekta  
+Mogucnost da vlasnik doda svoj objekat zajedno sa njegovom lokacijom i brojem slobodnih mjesta  
+Mogucnost da vlasnik objekta mijenja broj slobodnih mjesta  
+Mogucnost da admin brise objekte i ocjene  
 
