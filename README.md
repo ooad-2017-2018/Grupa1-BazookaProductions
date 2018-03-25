@@ -14,7 +14,7 @@ omoguciti vlasnicima da svoje objekte objave pomocu ove aplikacije. Korisnik moz
 Klijent se moze ulogovati ili registrovati pri cemu bira da se registruje kao korisnik ili vlasnik objekata.  
 Gost unosi tip objekta koji ga zanima i ima pregled svih takvih objekata sa njihovim ocjenama.  
 Obicni korisnik radi to isto, takodjer obicni korisnik ocjenjuje zeljene objekte us mogucnost dodavanja komentara sa slikom ili pravi rezervacije u tim objektima.  
-Vlasnik objekta dodaje ,m,msvoj objekat u bazu podataka zajedno sa lokacijom objekta, slikom objekta, kontakt telefonom, kratkim opisom i brojem mjesta u njemu.  
+Vlasnik objekta dodaje svoj objekat u bazu podataka zajedno sa lokacijom objekta, slikom objekta, kontakt telefonom, kratkim opisom i brojem mjesta u njemu.  
 Takodjer, vlasnik objekta ima pregled nad svim svojim lokalima i moze mjenjati broj slobodnih mjesta u njemu.  
 Admin moze brisati objekte i ocjene.  
 
