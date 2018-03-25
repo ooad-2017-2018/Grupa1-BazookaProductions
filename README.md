@@ -6,7 +6,7 @@ Clanovi tima :
 
 # Opis Teme :
 
-Ova aplikacija treba omoguciti korisniku pregled ugostiteljskih objekata onog tipa koji ga zanima, takodjer 
+Ova aplikacija treba omoguciti korisniku lahak i praktican pregled ugostiteljskih objekata onog tipa koji ga zanima, takodjer 
 omoguciti vlasnicima da svoje objekte objave pomocu ove aplikacije. Korisnik moze vidjeti ocjene drugih korisnika za zeljene objekte i takodjer rezervisati mjesta u tim objektima.
 
 # Procesi :
