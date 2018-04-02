@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="3f1dde34-5bb0-45e1-824d-209f94a54658"
+    Name="76f18bc3-9463-4e60-9f83-a56ce6da91be"
     Publisher="CN=Sake"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="3f1dde34-5bb0-45e1-824d-209f94a54658" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="76f18bc3-9463-4e60-9f83-a56ce6da91be" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>SarajevoTravel</DisplayName>
+    <DisplayName>SarajevoT</DisplayName>
     <PublisherDisplayName>Sake</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="SarajevoTravel.App">
+      EntryPoint="SarajevoT.App">
       <uap:VisualElements
-        DisplayName="SarajevoTravel"
+        DisplayName="SarajevoT"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="SarajevoTravel"
+        Description="SarajevoT"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
