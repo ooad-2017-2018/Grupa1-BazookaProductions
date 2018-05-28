@@ -1,0 +1,27 @@
+State Design Pattern
+>Mijenja naèin ponašanja objekata na osnovu trenutnog stanja. U nasem slucaju, zavisno od toga da li objekat ima slobodnih
+mjesta, rezervacija je moguca ili nije.
+
+Object Pool Design Pattern
+>U slucaju da trebamo cuvati mnogo podataka, a memorija je ogranicena, stari objekti se mogu zamijeniti novima umjesto
+da pravimo nove. U nasem slucaju, kada objekti prestanu biti relevantni, na primjer, vlasnik  ih prestane pratiti, mozemo
+ih zamijeniti novima.
+
+Private Class Data Pattern
+>Odredjuje koriscenje privatnih atributa koji se ne mogu mijenjati osim pri kreiranju objekta. Nakon pravljenja novog
+objekta, ne moze mu se mijenjati ime, lokacija...
+
+Proxy Pattern
+>Namjena Proxy paterna je da omoguæi pristup i kontrolu pristupa stvarnim objektima. Proxy je obièno mali javni surogat 
+objekat koji predstavlja kompleksni objekat èija aktivizacija se postiže na osnovu postavljenih pravila. U nasem slucaju,
+prvo je kreiran gost objekat a tek nakon registracije korisnik objekat cije se informacije pamte.
+
+Strategy Pattern
+>Strategy patern izdvaja algoritam iz matiène klase i ukljuèuje ga u posebne klase. Pogodan je kada postoje 
+razlièiti primjenjivi algoritmi (strategije) za neki problem. Posto ima vise nacina komentarisanja datog 
+objekta mozemo ovaj patern primjeniti.
+
+>Singleton Pattern
+>Uloga Singleton paterna je da osigura da se klasa može instancirati samo jednom i da osigura globalni 
+pristup kreiranoj instanci klase. Postoji više objekata koje je potrebno samo jednom instancirati i nad 
+kojim je potrebna jedinstvena kontrola pristupa. U nasem slucaju imamo jednu kontejnersku klasu za sve objekte.
