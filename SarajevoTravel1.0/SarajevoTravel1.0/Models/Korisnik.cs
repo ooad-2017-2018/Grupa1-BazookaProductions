@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SarajevoTravel.Models
+namespace SarajevoTravel1._0.Models
 {
-    public class Korisnik
+    class Korisnik
     {
         string id;
         string ime;
@@ -25,11 +25,12 @@ namespace SarajevoTravel.Models
             Email = email;
         }
 
-        public string Id {
+        public string Id
+        {
             get => id;
             set
             {
-               id = value;
+                id = value;
             }
         }
         public string Ime
@@ -37,7 +38,7 @@ namespace SarajevoTravel.Models
             get => ime;
             set
             {
-                if (value.Length == 0)           
+                if (value.Length == 0)
                     throw new Exception("Ime nevalidan!");
                 ime = value;
             }

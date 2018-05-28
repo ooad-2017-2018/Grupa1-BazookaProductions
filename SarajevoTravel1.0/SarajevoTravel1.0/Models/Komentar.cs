@@ -5,19 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace SarajevoTravel.Models
+
+namespace SarajevoTravel1._0.Models
 {
     class Komentar
     {
         public string id { get => id; set => id = value; }
         public string komentar { get => komentar; set => komentar = value; }
         public int ocjena { get => ocjena; set => ocjena = value; }
-        public string username{ get => username; set => username = value; }
+        public string username { get => username; set => username = value; }
         public string idObjekta { get => idObjekta; set => idObjekta = value; }
         public BitmapImage image { get => image; set => image = value; }
         public DateTime datum { get => datum; set => datum = value; }
         public int vrsta = 1;
-      
+
 
         //Samo komentar
         public Komentar(string id, string komentar, string username, string idObjekta, DateTime datum)
@@ -25,7 +26,7 @@ namespace SarajevoTravel.Models
             this.id = id;
             this.komentar = komentar;
             this.ocjena = -1;
-            this.username= username;
+            this.username = username;
             this.idObjekta = idObjekta;
             this.datum = datum;
             image = null;

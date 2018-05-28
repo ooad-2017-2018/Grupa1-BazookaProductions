@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace SarajevoTravel
+namespace SarajevoTravel1._0
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -33,7 +33,7 @@ namespace SarajevoTravel
         }
 
         /// <summary>
-        /// Invoked when the application is launched normally by the end user.  Other entry postrings
+        /// Invoked when the application is launched normally by the end user.  Other entry points
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
@@ -86,7 +86,7 @@ namespace SarajevoTravel
         /// <summary>
         /// Invoked when application execution is being suspended.  Application state is saved
         /// without knowing whether the application will be terminated or resumed with the contents
-        /// of memory still stringact.
+        /// of memory still intact.
         /// </summary>
         /// <param name="sender">The source of the suspend request.</param>
         /// <param name="e">Details about the suspend request.</param>

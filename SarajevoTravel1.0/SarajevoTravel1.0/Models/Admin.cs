@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SarajevoTravel.Models
+namespace SarajevoTravel1._0
 {
     class Admin
     {
@@ -16,7 +16,5 @@ namespace SarajevoTravel.Models
             this.username = username;
             this.password = password;
         }
-
-       
     }
 }

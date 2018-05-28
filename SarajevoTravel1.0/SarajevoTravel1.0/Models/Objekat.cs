@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SarajevoTravel.Models
+namespace SarajevoTravel1._0.Models
 {
-    public class Objekat
+    class Objekat
     {
         string id;
         string idVlasnika;

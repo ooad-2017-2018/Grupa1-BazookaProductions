@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SarajevoTravel.Models
+namespace SarajevoTravel1._0.Models
 {
     class SarajevoTravel
     {
@@ -12,7 +12,7 @@ namespace SarajevoTravel.Models
         public List<Objekat> objekti = new List<Objekat>();
         public List<Rezervacija> rezervacije = new List<Rezervacija>();
         public List<Komentar> komentari = new List<Komentar>();
-        public Admin admin = new Admin("admin","admin");
+        public Admin admin = new Admin("admin", "admin");
 
     }
 }

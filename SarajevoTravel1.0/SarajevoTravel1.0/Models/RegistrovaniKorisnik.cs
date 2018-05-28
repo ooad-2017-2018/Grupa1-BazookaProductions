@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SarajevoTravel.Models
+namespace SarajevoTravel1._0.Models
 {
-    class RegistrovaniKorisnik : Korisnik
+    class RegistrovaniKorisnik:Korisnik
     {
         public RegistrovaniKorisnik(string id, string ime, string prezime, string username, string password, string email) : base(id, ime, prezime, username, password, email)
         {

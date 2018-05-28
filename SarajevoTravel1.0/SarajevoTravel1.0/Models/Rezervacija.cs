@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SarajevoTravel.Models
+namespace SarajevoTravel1._0.Models
 {
     class Rezervacija
     {
@@ -25,5 +25,6 @@ namespace SarajevoTravel.Models
         public string IdOsobe { get => idOsobe; set => idOsobe = value; }
         public string IdObjekta { get => idObjekta; set => idObjekta = value; }
         public DateTime Datum { get => datum; set => datum = value; }
+
     }
 }

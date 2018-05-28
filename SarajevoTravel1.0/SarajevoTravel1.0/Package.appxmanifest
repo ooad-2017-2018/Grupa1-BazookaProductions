@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="461117f0-e4c4-46c5-a572-ad2b5bdea6c3"
+    Name="bd7099b6-7064-4880-8bbf-2a3dcb7f78a2"
     Publisher="CN=Sake"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="461117f0-e4c4-46c5-a572-ad2b5bdea6c3" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="bd7099b6-7064-4880-8bbf-2a3dcb7f78a2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>SarajevoTravel</DisplayName>
+    <DisplayName>SarajevoTravel1.0</DisplayName>
     <PublisherDisplayName>Sake</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPostring="SarajevoTravel.App">
+      EntryPoint="SarajevoTravel1._0.App">
       <uap:VisualElements
-        DisplayName="SarajevoTravel"
+        DisplayName="SarajevoTravel1.0"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="SarajevoTravel"
+        Description="SarajevoTravel1.0"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
@@ -44,6 +44,6 @@
   </Applications>
 
   <Capabilities>
-    <Capability Name="stringernetClient" />
+    <Capability Name="internetClient" />
   </Capabilities>
 </Package>
