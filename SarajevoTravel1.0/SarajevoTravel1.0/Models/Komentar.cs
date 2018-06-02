@@ -8,7 +8,7 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace SarajevoTravel1._0.Models
 {
-    class Komentar
+    public class Komentar
     {
         public string id { get => id; set => id = value; }
         public string komentar { get => komentar; set => komentar = value; }

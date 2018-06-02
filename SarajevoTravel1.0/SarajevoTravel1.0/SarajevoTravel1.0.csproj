@@ -92,6 +92,8 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Baza.cs" />
+    <Compile Include="LoginViewModel.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -103,6 +105,10 @@
     <Compile Include="Models\Rezervacija.cs" />
     <Compile Include="Models\SarajevoTravel.cs" />
     <Compile Include="Models\VlasnikObjekta.cs" />
+    <Compile Include="PanelViewModel.cs" />
+    <Compile Include="RegistracijaViewModel.cs" />
+    <Compile Include="TabelaAdmin.cs" />
+    <Compile Include="TabelaKorisnik.cs" />
     <Compile Include="View\BlankPage1.xaml.cs">
       <DependentUpon>BlankPage1.xaml</DependentUpon>
     </Compile>

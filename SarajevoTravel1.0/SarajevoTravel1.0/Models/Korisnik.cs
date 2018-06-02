@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SarajevoTravel1._0.Models
 {
-    class Korisnik
+    public class Korisnik
     {
         string id;
         string ime;
@@ -14,8 +14,9 @@ namespace SarajevoTravel1._0.Models
         string username;
         string password;
         string email;
+        int tipKorisnika;
 
-        public Korisnik(string id, string ime, string prezime, string username, string password, string email)
+        public Korisnik(string id, string ime, string prezime, string username, string password, string email, int tipKorisnika)
         {
             Id = id;
             Ime = ime;
@@ -23,6 +24,7 @@ namespace SarajevoTravel1._0.Models
             Username = username;
             Password = password;
             Email = email;
+            TipKorisnika = tipKorisnika;
         }
 
         public string Id
@@ -82,6 +84,20 @@ namespace SarajevoTravel1._0.Models
                     throw new Exception("Email nevalidan");
                 email = value;
             }
+        }
+        public int TipKorisnika
+        {
+            get => tipKorisnika;
+            set
+            {
+                tipKorisnika = value;
+            }
+        }
+
+        public string ispisiKorisnika()
+        {
+            string s = Ime + " " + Prezime + " " + email;
+            return s;
         }
     }
 }

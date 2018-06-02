@@ -22,9 +22,12 @@ namespace SarajevoTravel1._0.View
     /// </summary>
     public sealed partial class BlankPage1 : Page
     {
+        PanelViewModel PWM;
         public BlankPage1()
         {
             this.InitializeComponent();
+            PWM = new PanelViewModel();
+            PWM.popuniKorisnike();
         }
 
         private void obrisiObjekatButton_Click(object sender, RoutedEventArgs e)

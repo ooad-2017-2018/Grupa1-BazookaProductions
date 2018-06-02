@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SarajevoTravel1._0
 {
-    class Admin
+    public class Admin
     {
         public string username { get => username; set => username = value; }
         public string password { get => password; set => password = value; }

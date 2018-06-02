@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SarajevoTravel1._0.Models
 {
-    class Objekat
+    public class Objekat
     {
         string id;
         string idVlasnika;

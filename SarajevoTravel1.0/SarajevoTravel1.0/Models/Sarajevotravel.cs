@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace SarajevoTravel1._0.Models
 {
-    class SarajevoTravel
+    public static class SarajevoTravel
     {
-        public List<Korisnik> korisnici = new List<Korisnik>();
-        public List<Objekat> objekti = new List<Objekat>();
-        public List<Rezervacija> rezervacije = new List<Rezervacija>();
-        public List<Komentar> komentari = new List<Komentar>();
-        public Admin admin = new Admin("admin", "admin");
-
+        public static List<Korisnik> korisnici = new List<Korisnik>();
+        public static List<Objekat> objekti = new List<Objekat>();
+        public static List<Rezervacija> rezervacije = new List<Rezervacija>();
+        public static List<Komentar> komentari = new List<Komentar>();
+        public static Korisnik ulogovaniKorisnik;
+        public static Admin admin;
     }
 }
