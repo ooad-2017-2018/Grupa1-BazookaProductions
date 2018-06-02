@@ -32,7 +32,7 @@ namespace SarajevoTravel1._0
             if (t == 3)
             {
                 // admin
-                //Frame.Navigate(typeof(BlankPage1)); nece da nadje ovo BlankPage1
+                Frame.Navigate(typeof(AdminPanel));// nece da nadje ovo BlankPage1
             }
             if (t == 4)
             {

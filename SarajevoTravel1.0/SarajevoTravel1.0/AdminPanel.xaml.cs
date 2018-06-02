@@ -15,21 +15,17 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace SarajevoTravel1._0.View
+namespace SarajevoTravel1._0
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class BlankPage1 : Page
+    public sealed partial class AdminPanel : Page
     {
-        PanelViewModel PWM;
-        public BlankPage1()
+        public AdminPanel()
         {
             this.InitializeComponent();
-            PWM = new PanelViewModel();
-            PWM.popuniKorisnike();
         }
-
         private void obrisiObjekatButton_Click(object sender, RoutedEventArgs e)
         {
 
