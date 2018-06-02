@@ -19,9 +19,26 @@ namespace SarajevoTravel1._0
 {
     public sealed partial class PodaciControl : UserControl
     {
+        public string Naziv
+        {
+            get { return nazivTextBlock.Text; }
+            set { nazivTextBlock.Text = value; }
+        }
+        public string Podatak
+        {
+            get { return podatakTextBox.Text; }
+            set { podatakTextBox.Text = value; }
+        }
         public PodaciControl()
         {
             this.InitializeComponent();
+            Podatak = "";
+        }
+        public PodaciControl(string naziv, string podatak)
+        {
+            this.InitializeComponent();
+            Naziv = naziv;
+            Podatak = podatak;
         }
     }
 }
