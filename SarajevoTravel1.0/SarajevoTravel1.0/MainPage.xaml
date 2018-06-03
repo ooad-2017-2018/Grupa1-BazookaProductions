@@ -49,10 +49,10 @@
 
         <Canvas x:Name="kanvas" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="1" HorizontalAlignment="Left" Height="342" Margin="56,10,-593,-352" Grid.RowSpan="1" VerticalAlignment="Top" Width="537">
             <StackPanel x:Name="stek" HorizontalAlignment="Left" Height="197" VerticalAlignment="Top" Width="470" Canvas.Left="30" Canvas.Top="15">
-                <TextBlock Text="Username" TextWrapping="Wrap" Height="30" FontSize="20"/>
+                <TextBlock Name="tb1" Text="Username" TextWrapping="Wrap" Height="30" FontSize="20"/>
                 <TextBox Name="usernameTextBox" Text="" Height="40" FontSize="20"/>
                 <Rectangle Height="10"/>
-                <TextBlock Text="Password" TextWrapping="Wrap" Height="30" FontSize="20"/>
+                <TextBlock Name="tb2" Text="Password" TextWrapping="Wrap" Height="30" FontSize="20"/>
                 <PasswordBox Name="passwordBox" Height="40" FontSize="20"/>
             </StackPanel>
             <Button x:Name="loginButton" Content="Log In" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="110" Canvas.Top="190" Width="82" Click="loginButton_Click"/>

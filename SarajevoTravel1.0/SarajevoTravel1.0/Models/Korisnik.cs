@@ -40,8 +40,8 @@ namespace SarajevoTravel1._0.Models
             get => ime;
             set
             {
-                if (value.Length == 0)
-                    throw new Exception("Ime nevalidan!");
+                /*if (value.Length == 0)
+                    throw new Exception("Ime nevalidan!");*/
                 ime = value;
             }
         }
@@ -50,8 +50,8 @@ namespace SarajevoTravel1._0.Models
             get => prezime;
             set
             {
-                if (value.Length == 0)
-                    throw new Exception("Prezime nevalidan!");
+                /*if (value.Length == 0)
+                    throw new Exception("Prezime nevalidan!");*/
                 prezime = value;
             }
         }
@@ -60,8 +60,8 @@ namespace SarajevoTravel1._0.Models
             get => username;
             set
             {
-                if (value.Length == 0)
-                    throw new Exception("Userrname nevalidan!");
+                /*if (value.Length == 0)
+                    throw new Exception("Userrname nevalidan!");*/
                 username = value;
             }
         }
@@ -70,8 +70,8 @@ namespace SarajevoTravel1._0.Models
             get => password;
             set
             {
-                if (value.Length == 0)
-                    throw new Exception("Password nevalidan!");
+                /*if (value.Length == 0)
+                    throw new Exception("Password nevalidan!");*/
                 password = value;
             }
         }
@@ -80,8 +80,8 @@ namespace SarajevoTravel1._0.Models
             get => email;
             set
             {
-                if (string.IsNullOrWhiteSpace(value))
-                    throw new Exception("Email nevalidan");
+                /*if (string.IsNullOrWhiteSpace(value))
+                    throw new Exception("Email nevalidan");*/
                 email = value;
             }
         }

@@ -22,9 +22,18 @@ namespace SarajevoTravel1._0
     /// </summary>
     public sealed partial class AdminPanel : Page
     {
+        PanelViewModel PWM;
         public AdminPanel()
         {
             this.InitializeComponent();
+            PWM = new PanelViewModel();
+            PWM.popuniKorisnike();
+            for(int i=0;i<Models.SarajevoTravel.korisnici.Count;i++)
+            {
+                string s;
+                s = Models.SarajevoTravel.korisnici[i].Ime + " " + Models.SarajevoTravel.korisnici[i].Prezime;
+                comboBox1.Items.Add(s);
+            }
         }
         private void obrisiObjekatButton_Click(object sender, RoutedEventArgs e)
         {

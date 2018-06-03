@@ -14,8 +14,6 @@ namespace SarajevoTravel1._0
         {
             try
             {
-                SarajevoTravel.ulogovaniKorisnik = null;
-                SarajevoTravel.admin = null;
                 Baza.logInKorisnik(username, password);
                 Baza.logInAdmin(username, password);
                 if (SarajevoTravel.ulogovaniKorisnik != null)

@@ -20,7 +20,7 @@ namespace SarajevoTravel1._0
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
             int t;
-            t = LWM.DajTipLogina(usernameTextBox.Text.ToString(), passwordBox.ToString());
+            t = LWM.DajTipLogina(usernameTextBox.Text.ToString(), passwordBox.Password.ToString());
             if (t == 1)
             {
                 // obicni korisnik
@@ -32,7 +32,7 @@ namespace SarajevoTravel1._0
             if (t == 3)
             {
                 // admin
-                Frame.Navigate(typeof(AdminPanel));// nece da nadje ovo BlankPage1
+                Frame.Navigate(typeof(AdminPanel));
             }
             if (t == 4)
             {
